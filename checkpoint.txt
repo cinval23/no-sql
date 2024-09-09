@@ -1,0 +1,27 @@
+chinedu nwaemesi
+Introduction To Database Checkpoint
+
+Slide 1: Introduction to Databases
+SQL (Relational Databases): Structured Query Language (SQL) databases are based on the relational model, using tables to store data in rows and columns. They enforce a strict schema and are ideal for structured data.
+NoSQL (MongoDB): NoSQL databases like MongoDB use flexible, document-oriented data models, allowing for unstructured or semi-structured data storage. MongoDB uses JSON-like documents for its records.
+
+Slide 2: SQL Database Functionalities
+Data Storage: Tables with predefined schemas.
+Transactions: Supports ACID (Atomicity, Consistency, Isolation, Durability) transactions, ensuring data integrity.
+Query Language: Uses SQL for querying data, which is highly optimized for complex joins and aggregations.
+Examples: MySQL, PostgreSQL, SQL Server.
+Scalability: Primarily vertically scalable (scale-up by increasing hardware resources).
+
+Slide 3: MongoDB Functionalities
+Data Storage: Uses collections of documents, which can have varying structures (schema-less).
+Transactions: Supports multi-document transactions (starting from version 4.0), but is generally more flexible with consistency models (BASE: Basically Available, Soft state, Eventual consistency).
+Query Language: Uses a query API for CRUD operations, with rich, flexible queries and indexing.
+Scalability: Designed for horizontal scalability (scale-out by adding more servers).
+
+Slide 4: Comparison: Data Models & Schema
+SQL: Relational model, fixed schema, strict data integrity. Best for structured, well-defined data models.
+MongoDB: Document-oriented model, flexible schema. Best for dynamic, hierarchical data and unstructured data models.
+
+Slide 5: Comparison: Use Cases & Performance
+SQL: Ideal for applications needing complex queries, transactions, and strict consistency, such as financial systems, CRM, and ERPs.
+MongoDB: Ideal for large-scale applications, real-time analytics, and use cases requiring high availability and distributed data, such as content management systems, IoT applications, and big data.
